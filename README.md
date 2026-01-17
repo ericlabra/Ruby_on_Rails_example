@@ -1,24 +1,46 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Este proyecto es una aplicación Ruby on Rails que consume la API de EasyBroker para obtener el titulo de las propiedades disponibles.
 
-Things you may want to cover:
+## Requisitos del sistema
 
-* Ruby version
+* Ruby version: 3.2.2
+* Rails version: 7.1.0
+* PostgreSQL
 
-* System dependencies
+## Configuración
 
-* Configuration
+1. Clona el repositorio
+2. Instala las dependencias:
+   ```bash
+   bundle install
+   ```
+3. Configura la base de datos:
+   ```bash
+   bin/rails db:prepare
+   ```
 
-* Database creation
+## Ejecución
 
-* Database initialization
+Para ejecutar una prueba de la solucion manualmente en consola puedes usar:
+```bash
+bundle exec rails console
+```
+Y ejecutar:
+```ruby
+Orchestators::ListLocations.result.locations
+```
 
-* How to run the test suite
+## Pruebas
 
-* Services (job queues, cache servers, search engines, etc.)
+Para ejecutar la suite de pruebas:
+```bash
+bundle exec rspec
+```
 
-* Deployment instructions
+## Rubocop
 
-* ...
+Para ejecutar Rubocop:
+```bash
+bundle exec rubocop
+```

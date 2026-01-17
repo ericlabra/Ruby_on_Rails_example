@@ -52,3 +52,4 @@ end
 
 gem 'rspec-rails', '~> 7.1', groups: %i[development test]
 gem 'rubocop', '~> 1.82', require: false
+gem 'simplecov', require: false, group: :test
