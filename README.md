@@ -17,7 +17,7 @@ Este proyecto es una aplicación Ruby on Rails que consume la API de EasyBroker 
    ```
 3. Configura la base de datos:
    ```bash
-   bin/rails db:prepare
+   bin/rails db:setup
    ```
 
 ## Ejecución
