@@ -1,6 +1,13 @@
 # README
 
-Este proyecto es una aplicación Ruby on Rails que consume la API de EasyBroker para obtener el titulo de las propiedades disponibles.
+Este proyecto es un codigo de ejemplo en Ruby on Rails que consume una API de desarrollo. ejemplifica lo basico de buenas practicas para quienes estan interesados en mi perfil profesional. 
+
+- Arquitectura hexagonal
+- API Rest
+- Service Actor
+- DRY Pattern
+- Rspec 100%
+- Rubocop 100%
 
 ## Requisitos del sistema
 
