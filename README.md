@@ -1,10 +1,11 @@
 # README
 
-Este proyecto es un codigo de ejemplo en Ruby on Rails que consume una API de desarrollo. ejemplifica lo basico de buenas practicas para quienes estan interesados en mi perfil profesional. 
+Este proyecto es un codigo de ejemplo en Ruby on Rails que consume una API de desarrollo. ejemplo de buenas practicas para quienes estan interesados en mi perfil profesional.
 
 - Arquitectura hexagonal
 - API Rest
 - Service Actor
+- Ruby config
 - DRY Pattern
 - Rspec 100%
 - Rubocop 100%
